@@ -1,0 +1,24 @@
+{
+  "name": "to-do-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "env-postinstall": "node -e \"var s='..',d='node_modules/root',fs=require('fs');fs.exists(d,function(e){e||fs.symlinkSync(s,d,'dir')});\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "js-yaml": "^3.8.4",
+    "jsonwebtoken": "^7.4.0",
+    "lru-cache": "^4.0.2",
+    "mongoose": "^4.9.8",
+    "string": "^3.3.3",
+    "swagger-tools": "^0.10.1"
+  }
+}

@@ -1,0 +1,9 @@
+user:
+  login: leobit
+  password: l3ob1t
+net:
+  bindIp: 127.0.0.1
+  port: 27017
+database:
+  name: tododb
+connectionString: mongodb://leobit:l3ob1t@127.0.0.1:27017/tododb
